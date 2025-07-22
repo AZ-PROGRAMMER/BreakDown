@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
   <title>Mupenzi Breakdown Towing Service</title>
 <!--
 Holiday Template
@@ -30,7 +31,7 @@ http://www.templatemo.com/tm-475-holiday
   		<div class="container">
   			<div class="row">
   				<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
-  					<a href="/index.html" class="tm-site-name">Mupenzi BTS</a>	
+  					<a href="/index.html" class="tm-site-name"><img src="img/favicon.png" alt=""> Mupenzi BTS</a>	
   				</div>
 	  			<div class="col-lg-6 col-md-8 col-sm-9">
 	  				<div class="mobile-menu-icon">
@@ -97,7 +98,7 @@ http://www.templatemo.com/tm-475-holiday
 					<div class="tab-content">
 					    <div role="tabpanel" class="tab-pane fade in active tm-white-bg" id="hotel">
 					    	<div class="tm-search-box effect2">
-								<form action="#" method="post" class="hotel-search-form">
+								<form id="whatsapp-form" method="post" class="hotel-search-form">
 									<div class="tm-form-inner">
 										<!-- <div class="form-group">
 							            	 <select class="form-control">
@@ -110,7 +111,7 @@ http://www.templatemo.com/tm-475-holiday
 							          	</div> -->
 							          	<div class="form-group">
 							                <div class='input-group date' id='datetimepicker1'>
-							                    <input type='text' class="form-control" placeholder="Your Name please...." />
+							                    <input type='text' class="form-control" id="name"  placeholder="Your Name please...." required/>
 							                    <span class="input-group-addon">
 							                        <span class="fa fa-user"></span>
 							                    </span>
@@ -118,7 +119,7 @@ http://www.templatemo.com/tm-475-holiday
 							            </div>
 							          	<div class="form-group">
 							                <div class='input-group date' id='datetimepicker2'>
-							                    <input type='number' class="form-control" placeholder="Your WhatsApp Number please...." />
+							                    <input type='number' class="form-control"  id="phone" placeholder="Your WhatsApp Number please...." required />
 							                    <span class="input-group-addon">
 							                        <span class="fa fa-whatsapp"></span>
 							                    </span>
@@ -126,7 +127,7 @@ http://www.templatemo.com/tm-475-holiday
 							            </div>
 									  <div class="form-group">
 							                <div class='input-group date' id='datetimepicker2'>
-							                    <input type='text' class="form-control" placeholder="Your location please...." />
+							                    <input type='text' class="form-control" id="location"  placeholder="Your location please...." required />
 							                    <span class="input-group-addon">
 							                        <span class="fa fa-map"></span>
 							                    </span>
@@ -141,7 +142,7 @@ http://www.templatemo.com/tm-475-holiday
 							            </div> -->
 									  <div class="form-group">
 							                <div class='input-group date' id='datetimepicker2'>
-							                    <textarea name="" id="message" class="form-control" placeholder="Your problem here please...."></textarea>
+							                    <textarea name="" id="message" class="form-control" placeholder="Your problem here please...." required></textarea>
 							                    <span class="input-group-addon">
 							                        <span class="fa fa-send"></span>
 							                    </span>
@@ -175,7 +176,11 @@ http://www.templatemo.com/tm-475-holiday
 							<img src="img/ndex0.jpg" alt="image" class="img-responsive">	
 						</div>						
 						<div class="tm-home-box-3-info">
-							<p class="tm-home-box-3-description">Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+							<p class="tm-home-box-3-description">Stuck in the middle of nowhere? We’ve got your back—anytime, any
+ where.Our fleet is always ready, day or night. Whether your car breaks down
+ on a lonely highway or right in your driveway, we dispatch a tow truc
+ k immediately to your location. No delays, no excuses—just fast, relia
+ ble help when you need it most</p>
 					        <!-- <div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
 							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Travel</span></a>
@@ -190,7 +195,10 @@ http://www.templatemo.com/tm-475-holiday
 							<img src="img/ndex01.jpg" alt="image" class="img-responsive">	
 						</div>						
 						<div class="tm-home-box-3-info">
-							<p class="tm-home-box-3-description">Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+							<p class="tm-home-box-3-description">Flat tire? Dead battery? Locked out? Don’t panic—we come to fix it o
+ n the spot. Before towing, we always try to solve the issue right where you are. 
+Our skilled roadside techs are trained to handle common problems: j
+ ump-starts, tire changes, fuel delivery, and lockouts.</p>
 					        <!-- <div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
 							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Travel</span></a>
@@ -205,7 +213,10 @@ http://www.templatemo.com/tm-475-holiday
 							<img src="img/ndex02.jpg" alt="image" class="img-responsive">	
 						</div>						
 						<div class="tm-home-box-3-info">
-							<p class="tm-home-box-3-description">Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+							<p class="tm-home-box-3-description">From motorcycles to trucks—we tow it all, near or far. Need to tow a vehicle across provinces or pull a large van out of a dit
+ ch? We’ve got the equipment and experience to handle any job. Our 
+heavy-duty tow trucks can handle oversized loads, trailers, buses—yo
+ u name it.</p>
 					        <!-- <div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
 							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Travel</span></a>
@@ -220,7 +231,10 @@ http://www.templatemo.com/tm-475-holiday
 							<img src="img/ndex03.jpg" alt="image" class="img-responsive">	
 						</div>						
 						<div class="tm-home-box-3-info">
-							<p class="tm-home-box-3-description">Proin gravida nibhvell velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+							<p class="tm-home-box-3-description">Involved in an accident? Let us take the stress off your shoulders. We handle the towing, vehicle recovery, and even coordinate with yo
+ ur insurance provider. Our team ensures your car is safely removed fr
+ om the accident scene, stored securely, and transported to your desi
+ red repair shop.</p>
 					        <!-- <div class="tm-home-box-2-container">
 							<a href="#" class="tm-home-box-2-link"><i class="fa fa-heart tm-home-box-2-icon border-right"></i></a>
 							<a href="#" class="tm-home-box-2-link"><span class="tm-home-box-2-description box-3">Travel</span></a>
@@ -250,6 +264,20 @@ http://www.templatemo.com/tm-475-holiday
 -->
    	<script type="text/javascript" src="js/templatemo-script.js"></script>      		<!-- Templatemo Script -->
 	<script>
+	document.getElementById('whatsapp-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+
+      const name = document.getElementById('name').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const message = document.getElementById('message').value.trim();
+      const location = document.getElementById('location').value.trim();
+
+      const fullMessage = `Hello, my name is ${name} .My I located at ${location} My phone number ${phone}. I request: " ${message} "`;
+      const whatsappNumber =  792526647; // e.g. 15551234567 (without +)
+
+      const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(fullMessage)}`;
+      window.open(whatsappURL, '_blank');
+    });
 		// HTML document is loaded. DOM is ready.
 		$(function() {
 
