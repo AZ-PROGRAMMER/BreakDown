@@ -130,7 +130,9 @@ body { overflow-x: hidden; }
 .flex-direction-nav a {
 	height: 50px;
 }
-
+textarea{
+	resize: none;
+}
 /* Section 1, index.html */
 
 .nav-tabs{
