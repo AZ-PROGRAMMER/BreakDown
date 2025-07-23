@@ -63,7 +63,10 @@ body { overflow-x: hidden; }
 	background: #FCDD44;
 	color: #000;
 }
-
+.tm-site-name img{
+	width: 60px;
+	height: 60px;
+}
 /* Banner */
 .tm-banner-inner {
     height: auto;
